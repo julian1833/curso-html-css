@@ -1,0 +1,33 @@
+/* pseudo clases */
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0%;
+    background-color: #13a4a4;
+    font-size: 30px;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    }
+
+    /* pseudo elemento, hover . active . after */
+.main-nav__item a:hover {
+    color: blue;
+}
+
+.main-nav__item a:active {
+    color: violet;
+}
+
+.main-nav__item a::after {
+    content: " / " ;
+}
+
