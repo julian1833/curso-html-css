@@ -1,3 +1,17 @@
-ol{
- padding-left: 72px;
+p {
+    color: blue;
+    font-size: 40px;
 }
+
+/* class */
+
+ .parrafo {
+     color: red;
+ }
+
+ /* id */
+
+ #texto {
+     color: green;
+     font-size: 25px;
+ }

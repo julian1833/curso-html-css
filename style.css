@@ -1,0 +1,16 @@
+h1 {
+    color: green;
+    font-size: 40px;
+}
+
+ul  {
+    color: sienna;
+}
+
+ol {
+    color: blue;
+}
+
+figcaption {
+    color: blueviolet;
+}
